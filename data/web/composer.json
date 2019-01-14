@@ -1,0 +1,26 @@
+{
+    "name": "fangtang/cv",
+    "description": "resume system 2.0",
+    "type": "project",
+    "require": {
+        "erusev/parsedown": "^1.7"
+    },
+    "authors": [
+        {
+            "name": "LightningLeilei",
+            "email": "lyx876@outlook.com"
+        }
+    ],
+    "autoload": {
+        "files":["framework/lib/function.php","framework/config/app.config.php"]
+        ,"psr-4": {
+               "NewFrame\\Controller\\":"framework/controller/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
