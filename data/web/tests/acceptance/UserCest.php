@@ -10,13 +10,16 @@ class UserCest
     }
 
     // tests
-    public function tryToTest(AcceptanceTester $I)
+    public function tryToTest_Login(AcceptanceTester $I)
     {
-        $I->amOnpage("_enter.php?m=user&a=login");
+        $I->amOnpage("index.php?m=user&a=login");
         $I->seeInTitle("用户登陆");
-        $I->fillField('email','lyx876@outlook.com');
-        $I->fillField('password','459599');
+        $I->fillField('email','123456@outlook.com');
+        $I->fillField('password','000000000');
         $I->click("登陆");
-
     }
+    // public function tryToTest_CreateResume(AcceptanceTester $I)
+    // {
+    
+    // }
 }

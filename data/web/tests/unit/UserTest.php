@@ -24,17 +24,17 @@ class UserTest extends \Codeception\Test\Unit
     }
 
     // tests
-    public function testSomeFeature()
-    {
-        $GLOBALS['User'] = 'Leilei';
-        $this->assertEquals( g('User'), 'Leilei');
-        $this->assertFalse( g('User1') );
-    }
+    // public function testSomeFeature()
+    // {
+    //     $GLOBALS['User'] = 'Leilei';
+    //     $this->assertEquals( g('User'), 'Leilei');
+    //     $this->assertFalse( g('User1') );
+    // }
 
     public function testUserLogin()
     {
-        $_REQUEST['email'] = 'lyx876@outlook.com';
-        $_REQUEST['password'] = '459599';
+        $_REQUEST['email'] = '123456@outlook.com';
+        $_REQUEST['password'] = '00000000';
 
         $user = new NewFrame\Controller\User();
         try

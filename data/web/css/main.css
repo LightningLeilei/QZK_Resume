@@ -2,18 +2,25 @@ body{
     font-family: "Hiragino Sans GB","Microsoft YaHei","å¾®è½¯é›…é»‘",Georgia,tahoma,arial,simsun,"å®‹ä½“";
 }
 
+.btn_resume_add{
+    margin-top: 15px;
+}
+
 .container{
     margin-left: auto;
     margin-right: auto;
     max-width: 600px;
 }
+
 .container a{
     color: rgb(11, 123, 197);
     text-decoration: none;
 }
+
 .container a:hover{
     text-decoration: underline;
 }
+
 .container h1.page_title{
     color: #ccc;
     font-weight: 400;
@@ -51,23 +58,102 @@ body{
     color: #ccc;
 }
 
-.middle{
-    width: 300px;
+.content h1{
+    color: #ccc;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
 
-.full{
-    width:100%;
-}
-
-.middle-button{
-    width: 100px!important;
+h1.page_title{
+    color: #ccc;
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .form_info:not(:empty){
     padding: 10px;
     font-size: 14px;
     background-color: bisque;
-   
+    margin-bottom: 10px;
+    border-radius: .25em; 
+}
+
+.full{
+    width:100%;
+}
+
+
+.headbox{
+    min-height: 80px;
+    /* border-bottom: 1px solid red; */
+    clear: both;
+}
+
+.headbox  a{
+    color: rgb( 0 , 152 , 255 );
+}
+
+.headbox .logo{
+    float: left;
+}
+.headbox .menu{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+.headbox .menu > li{
+    display: inline-block;
+}
+
+
+.menu_square{
+    display: inline-block;
+    background-color: #ccc;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+.menu_square_large
+{
+    display: inline-block;
+    background-color: #ccc;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+.middle{
+    width: 300px;
+}
+
+.middle-button{
+    width: 100px!important;
+}
+
+
+.no_padding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.page_box{
+    padding: 10px;
+}
+
+.resume_add{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 152, 255);
+    font-size: 16px;
+    margin-top: 20px;
+}
+.resume_add img{
+    max-height: 14px;
 }
 
 .resume_list{
@@ -97,53 +183,3 @@ body{
     display: inline-block;
 }
 
-
-.resume_add{
-    display: inline-block;
-    text-decoration: none;
-    color: rgb(0, 152, 255);
-    font-size: 16px;
-    margin-top: 20px;
-}
-.resume_add img{
-    max-height: 14px;
-}
-
-.headbox{
-    min-height: 80px;
-    /* border-bottom: 1px solid red; */
-    clear: both;
-}
-
-.headbox .logo{
-    float: left;
-}
-.headbox .menu{
-    float: right;
-    margin: 0px;
-    padding: 0px;
-    font-size: 18px;
-}
-.headbox .menu > li{
-    display: inline-block;
-}
-.headbox  a{
-    color: rgb( 0 , 152 , 255 );
-}
-.menu_square
-{
-    display: inline-block;
-    background-color: #ccc;
-    width: 14px;
-    height: 14px;
-    margin-right: 5px;
-}
-.menu_square_large
-{
-    display: inline-block;
-    background-color: #ccc;
-    width: 24px;
-    height: 24px;
-    margin-right: 5px;
-    
-}
